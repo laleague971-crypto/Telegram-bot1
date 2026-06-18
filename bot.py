@@ -7,6 +7,8 @@ API_ID = int(os.environ['API_ID'])
 API_HASH = os.environ['API_HASH']
 SESSION_STRING = os.environ['SESSION_STRING']
 
+print(f"DEBUG longueur de la session: {len(SESSION_STRING)}")
+
 SOURCE_CHANNEL = -1004382211692
 DEST_CHANNELS = ['@chezdh', '@chezz9', '@ChezMendoza']
 
